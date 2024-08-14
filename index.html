@@ -1,0 +1,75 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <title>Super Mario Bros</title>
+</head>
+
+<body>
+    <div class="principal">
+        <section>            
+            <div class="div-text">
+                <img class="logo" src="./assets/logo.png" alt="logo-mario">
+                <p>Encanadores Mario e Luigi - Resolvendo Seus Problemas Com Estilo!</p>
+                <p>Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
+                    entupidos
+                    ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+                    Apresentamos a
+                    vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!</p>
+                <button class="contact" onclick="contact()">CONTATO</button>
+            </div>
+
+            <div class="assistir-video">
+                <div class="caixa-geral">
+                    <div class="espaco-caixa"></div>
+                    <img class="caixa-fala" src="./assets/caixa-fala.png" alt="caixa-dialogo">
+                    <p class="pergunta">Com dúvida em nós contactar? Veja como atumos!</p>
+                    <p class="fala">Logo entraremos em contato! Aguarde para confirmar o Envio...</p>
+                    <div class="botao-espaco"></div>
+                    <button class="botao-assistir" onclick="assistir()">Assistir</button>
+                </div>
+                <img class="mario" src="./assets/mario.png" alt="foto-mario-e-luigi">
+            </div>
+    
+        </section>
+
+        <div class="campo-form">
+
+            <form class="my-form" action="https://formsubmit.co/alan.viver@gmail.com" method="POST">
+                <img onclick="hideForm()" class="close-btn" src="./assets/close.png" alt="Botão de Fechar">
+                <input type="text" placeholder="seu nome" name="nome">
+                <input type="tel" placeholder="seu telefone" name="telefone">
+                <textarea placeholder="Digite seu problema" name="info"></textarea>
+                <button type="button" class="send" onclick="toSend()">Enviar</button>
+
+            </form>
+        </div>
+
+        <div class="mascara-form"></div>
+
+        <audio class="audio-its-me" src="./assets/Its' a me Mario.mp3"></audio>
+        <audio class="audio-oki-doki" src="./assets/Mario - oki doki.mp3"></audio>
+
+        <div class="div-video-mario">
+            <video class="video-mario" src="./assets/video.mp4" autoplay muted loop></video>
+            <div class="mascara-video"></div>
+        </div>
+
+        <iframe class="video" src="https://www.youtube.com/embed/0mqnkKgLT64?si=yH6ZcysmYLadCrMi?"
+            title="YouTube video player" frameborder="0"
+            allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autoplay muted>
+        </iframe>
+        <img onclick="hideVideo()" class="close-btn close-video" src="./assets/close.png" alt="Botão de Fechar">
+        
+    </div>
+    <footer>
+        <h3>Copyright &copy; 2023 - Desenvolvido por ALAN GOMES</h3>
+    </footer>
+</body>
+<script src="./scripts.js"></script>
+
+</html>
