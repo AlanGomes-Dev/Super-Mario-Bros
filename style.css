@@ -88,12 +88,12 @@ nav {
 }
 
 .logo {
-    width: 35vw;
+    width: 32vw;
     margin-bottom: 20px;
 }
 
 .mario {
-    width: 35vw;
+    width: 30vw;
     margin-bottom: 5%;
     margin-left: 16%;
 }
@@ -104,6 +104,10 @@ p {
     font-size: 14px;
     line-height: 25px;
     color: #FFFFFF;
+}
+
+.texto-resumo{
+    display: none;
 }
 
 button {
@@ -228,7 +232,7 @@ textarea {
 
 .pergunta{    
     position: relative;
-    top: 86px;
+    top: 130px;
     width: 200px;
     height: 50px;
     color: #0e0e0e; 
@@ -263,7 +267,7 @@ textarea {
 
 @keyframes caixa {
     from {top: 22rem; left: 10rem; width: 0px;}
-    to {top: 12.5rem; left: -10.5rem; width: 300px;}
+    to {top: 15.5rem; left: -10.5rem; width: 300px;}
 }
 .botao-espaco{
     height: 30px;
@@ -271,7 +275,7 @@ textarea {
 .botao-assistir{
     display: none;       
     position: relative;     
-    top: 41px;
+    top: 85px;
     margin-left: -70px;    
     width: 120px;
     height: 30px;
@@ -306,7 +310,7 @@ textarea {
 .close-video{
     display: none;
     position: absolute;
-    top: 5%;
+    top: 10%;
     left: 35%;
     z-index: 4;
     transform: translate(-50%, -50%);    
@@ -387,8 +391,8 @@ footer {
     }
     .close-video{ 
         position: fixed;       
-        top: 5%;
-        left: 15%;
+        top: 10%;
+        left: 2%;
         transform: translate(-50%, -50%)          
     }
 
@@ -400,6 +404,14 @@ footer {
 @media screen and (max-width: 400px) {
        .campo-form{
         margin-left: 5px;
-       }  
+       }
+       
+       .texto-resumo{
+        display: block;
+       }
+
+       .texto-inteiro{
+        display: none;
+       }
  
      }
