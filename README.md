@@ -21,7 +21,8 @@
 <br>
 <h2>Usage</h2>
 <p>The website can be used as a template or starting point for creating themed business websites. It demonstrates how to integrate media elements, such as videos and audio, into a responsive and interactive user experience.</p>
-
+<br>
+<video src="https://github.com/AlanGomes-Dev/Super-Mario-Bros/raw/main/assets/Super%20Mario%20Bros.mp4" autoplay loop></video>
 <br>
 <footer>
     <p>Developed by <strong>Alan Gomes</strong></p>
