@@ -35,9 +35,7 @@ function assistir(){
     caixaFala.style.display = "none"
     pergunta.style.opacity = "0"
     botaoEspaco.style.display = "block"
-    botaoAssistir.style.display = "none"      
-    
-    
+    botaoAssistir.style.display = "none"     
 }
 
 
@@ -125,7 +123,5 @@ function hideForm() {
     caixaFala.style.display = "none"
     pergunta.style.opacity = "0"
     botaoEspaco.style.display = "block"
-    botaoAssistir.style.display = "none"
-    
-        
+    botaoAssistir.style.display = "none"        
   }
